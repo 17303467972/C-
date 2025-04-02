@@ -1,0 +1,11 @@
+﻿<Application x:Class="IndustrialControlApp.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:converters="clr-namespace:IndustrialControlApp.Converters">
+    <Application.Resources>
+        <ResourceDictionary>
+            <converters:BoolToColorConverter x:Key="BoolToColor"/>
+            <converters:MotorStatusConverter x:Key="MotorStatus"/>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
