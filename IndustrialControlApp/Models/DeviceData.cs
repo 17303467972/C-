@@ -5,8 +5,10 @@ namespace IndustrialControlApp.Models
 {
     public class DeviceData : INotifyPropertyChanged
     {
+        public const double AmbientTemp = 25.0;
+        
         private bool _motorStatus;
-        private double _temperature;
+        private double _temperature = AmbientTemp;
 
         public bool MotorStatus
         {
@@ -24,7 +26,7 @@ namespace IndustrialControlApp.Models
             get => _temperature;
             set
             {
-                if (_temperature.Equals(value)) return;
+                if (Math.Abs(_temperature - value) < 0.01) return;
                 _temperature = value;
                 OnPropertyChanged();
             }

@@ -52,9 +52,25 @@
               "target": "Package",
               "version": "[0.9.7, )"
             },
+            "NModbus": {
+              "target": "Package",
+              "version": "[4.0.0-alpha010, )"
+            },
+            "NModbus4": {
+              "target": "Package",
+              "version": "[3.0.0-alpha2, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "OPCUA.Library": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            },
+            "SQLite": {
+              "target": "Package",
+              "version": "[3.13.0, )"
             }
           },
           "imports": [

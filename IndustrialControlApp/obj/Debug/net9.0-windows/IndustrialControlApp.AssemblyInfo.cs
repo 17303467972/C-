@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IndustrialControlApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86c01d8f6a38462244e2fe1d966f29834d8064c1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a22bc9a3a5cabd1c09fa25e63f66cde5c5bdb88")]
 [assembly: System.Reflection.AssemblyProductAttribute("IndustrialControlApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IndustrialControlApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -12,6 +12,14 @@
       <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
       <PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
       <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+      <PackageReference Include="NModbus" Version="4.0.0-alpha010" />
+      <PackageReference Include="NModbus4" Version="3.0.0-alpha2" />
+      <PackageReference Include="OPCUA.Library" Version="11.0.2" />
+      <PackageReference Include="SQLite" Version="3.13.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Services\" />
     </ItemGroup>
 
 </Project>
