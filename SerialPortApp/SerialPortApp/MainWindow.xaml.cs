@@ -280,60 +280,71 @@ namespace SerialPortApp
         #endregion
 
         #region Data Processing
-        private void ProcessData(string data, bool isHex)
+private void ProcessData(string data, bool isHex)
+{
+    try
+    {
+        Dispatcher.BeginInvoke(() =>
         {
-            try
+            txtRawData.AppendText(data + "\n");
+            txtRawData.ScrollToEnd();
+
+            if (isHex) return;
+
+            var cleanData = data.Trim()
+                .Replace("\0", "")
+                .Replace(" ", "");
+
+            var values = new List<double>();
+
+            // 尝试直接解析单值
+            if (double.TryParse(cleanData, NumberStyles.Any, CultureInfo.InvariantCulture, out var singleValue))
             {
-                Dispatcher.BeginInvoke(() =>
+                values.Add(singleValue);
+            }
+            else // 尝试解析多值数据
+            {
+                var segments = cleanData.Split(new[] { ',', ';', '\t', '|' }, StringSplitOptions.RemoveEmptyEntries);
+                foreach (var segment in segments)
                 {
-                    txtRawData.AppendText(data + "\n");
-                    txtRawData.ScrollToEnd();
+                    var valuePart = segment.Contains(':') 
+                        ? segment.Split(new[] { ':' }, 2)[1].Trim() 
+                        : segment.Trim();
 
-                    if (isHex) return;
-
-                    var cleanData = data.Trim()
-                        .Replace("\0", "")
-                        .Replace(" ", "");
-
-                    var values = new List<double>();
-
-                    // 尝试直接解析单值
-                    if (double.TryParse(cleanData, NumberStyles.Any, CultureInfo.InvariantCulture, out var singleValue))
+                    // 新增对 a=37020 格式的处理
+                    if (!double.TryParse(valuePart, NumberStyles.Any, CultureInfo.InvariantCulture, out var val))
                     {
-                        values.Add(singleValue);
-                    }
-                    else // 尝试解析多值数据
-                    {
-                        var segments = cleanData.Split(new[] { ',', ';', '\t', '|' }, StringSplitOptions.RemoveEmptyEntries);
-                        foreach (var segment in segments)
+                        // 检查是否有 '=' 符号并且尝试提取其后的内容
+                        var parts = segment.Split('=', 2);
+                        if (parts.Length == 2 && double.TryParse(parts[1], NumberStyles.Any, CultureInfo.InvariantCulture, out val))
                         {
-                            var valuePart = segment.Contains(':') 
-                                ? segment.Split(new[] { ':' }, 2)[1].Trim() 
-                                : segment.Trim();
-
-                            if (double.TryParse(valuePart, NumberStyles.Any, CultureInfo.InvariantCulture, out var val))
-                            {
-                                values.Add(val);
-                            }
-                            else
-                            {
-                                AddLog($"无效数据段: {segment}", LogLevel.Warning);
-                            }
+                            valuePart = parts[1];
                         }
                     }
 
-                    foreach (var value in values)
+                    if (double.TryParse(valuePart, NumberStyles.Any, CultureInfo.InvariantCulture, out val))
                     {
-                        UpdateChart(value);
-                        CheckAlarm(value);
+                        values.Add(val);
                     }
-                }, DispatcherPriority.Background);
+                    else
+                    {
+                        AddLog($"无效数据段: {segment}", LogLevel.Warning);
+                    }
+                }
             }
-            catch (Exception ex)
+
+            foreach (var value in values)
             {
-                AddLog($"数据处理异常: {ex.Message}", LogLevel.Error);
+                UpdateChart(value);
+                CheckAlarm(value);
             }
-        }
+        }, DispatcherPriority.Background);
+    }
+    catch (Exception ex)
+    {
+        AddLog($"数据处理异常: {ex.Message}", LogLevel.Error);
+    }
+}
 
         private void UpdateChart(double value)
         {
