@@ -1,0 +1,24 @@
+﻿<Window x:Class="SerialMonitorApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Serial Monitor" Height="350" Width="500">
+    <Grid>
+        <StackPanel Margin="10">
+            <!-- 连接控制 -->
+            <Button x:Name="BtnConnect" Content="Connect" 
+                    Width="100" Margin="5" Click="BtnConnect_Click"/>
+            
+            <!-- 数据显示 -->
+            <TextBox x:Name="TxtMonitor" Height="200" Margin="5"
+                     IsReadOnly="True" VerticalScrollBarVisibility="Auto"
+                     FontFamily="Consolas" FontSize="12"/>
+            
+            <!-- 状态栏 -->
+            <StatusBar>
+                <StatusBarItem>
+                    <TextBlock x:Name="TxtStatus" Text="Disconnected"/>
+                </StatusBarItem>
+            </StatusBar>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,14 @@
+D:\Users\JazzZhang\RiderProjects\ConsoleApp1\ConsoleApp1\bin\Debug\net9.0\ConsoleApp1.exe
+D:\Users\JazzZhang\RiderProjects\ConsoleApp1\ConsoleApp1\bin\Debug\net9.0\ConsoleApp1.deps.json
+D:\Users\JazzZhang\RiderProjects\ConsoleApp1\ConsoleApp1\bin\Debug\net9.0\ConsoleApp1.runtimeconfig.json
+D:\Users\JazzZhang\RiderProjects\ConsoleApp1\ConsoleApp1\bin\Debug\net9.0\ConsoleApp1.dll
+D:\Users\JazzZhang\RiderProjects\ConsoleApp1\ConsoleApp1\bin\Debug\net9.0\ConsoleApp1.pdb
+D:\Users\JazzZhang\RiderProjects\ConsoleApp1\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\JazzZhang\RiderProjects\ConsoleApp1\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.AssemblyInfoInputs.cache
+D:\Users\JazzZhang\RiderProjects\ConsoleApp1\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.AssemblyInfo.cs
+D:\Users\JazzZhang\RiderProjects\ConsoleApp1\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\Users\JazzZhang\RiderProjects\ConsoleApp1\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.dll
+D:\Users\JazzZhang\RiderProjects\ConsoleApp1\ConsoleApp1\obj\Debug\net9.0\refint\ConsoleApp1.dll
+D:\Users\JazzZhang\RiderProjects\ConsoleApp1\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.pdb
+D:\Users\JazzZhang\RiderProjects\ConsoleApp1\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.genruntimeconfig.cache
+D:\Users\JazzZhang\RiderProjects\ConsoleApp1\ConsoleApp1\obj\Debug\net9.0\ref\ConsoleApp1.dll

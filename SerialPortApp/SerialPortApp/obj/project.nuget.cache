@@ -1,0 +1,74 @@
+{
+  "version": 2,
+  "dgSpecHash": "jjJ6YzaTbZg=",
+  "success": true,
+  "projectFilePath": "D:\\Users\\JazzZhang\\RiderProjects\\SerialPortApp\\SerialPortApp\\SerialPortApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\htmlrenderer.core\\1.5.1-beta1\\htmlrenderer.core.1.5.1-beta1.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\htmlrenderer.wpf\\1.5.1-beta1\\htmlrenderer.wpf.1.5.1-beta1.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\jetbrains.annotations\\2025.1.0-eap1\\jetbrains.annotations.2025.1.0-eap1.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\oxyplot.core\\2.2.0\\oxyplot.core.2.2.0.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\oxyplot.windowsforms\\2.2.0\\oxyplot.windowsforms.2.2.0.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\oxyplot.wpf\\2.2.0\\oxyplot.wpf.2.2.0.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\oxyplot.wpf.shared\\2.2.0\\oxyplot.wpf.shared.2.2.0.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\runtime.android-arm.runtime.native.system.io.ports\\10.0.0-preview.2.25163.2\\runtime.android-arm.runtime.native.system.io.ports.10.0.0-preview.2.25163.2.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\runtime.android-arm64.runtime.native.system.io.ports\\10.0.0-preview.2.25163.2\\runtime.android-arm64.runtime.native.system.io.ports.10.0.0-preview.2.25163.2.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\runtime.android-x64.runtime.native.system.io.ports\\10.0.0-preview.2.25163.2\\runtime.android-x64.runtime.native.system.io.ports.10.0.0-preview.2.25163.2.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\runtime.android-x86.runtime.native.system.io.ports\\10.0.0-preview.2.25163.2\\runtime.android-x86.runtime.native.system.io.ports.10.0.0-preview.2.25163.2.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\10.0.0-preview.2.25163.2\\runtime.linux-arm.runtime.native.system.io.ports.10.0.0-preview.2.25163.2.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\10.0.0-preview.2.25163.2\\runtime.linux-arm64.runtime.native.system.io.ports.10.0.0-preview.2.25163.2.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\runtime.linux-bionic-arm64.runtime.native.system.io.ports\\10.0.0-preview.2.25163.2\\runtime.linux-bionic-arm64.runtime.native.system.io.ports.10.0.0-preview.2.25163.2.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\runtime.linux-bionic-x64.runtime.native.system.io.ports\\10.0.0-preview.2.25163.2\\runtime.linux-bionic-x64.runtime.native.system.io.ports.10.0.0-preview.2.25163.2.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\runtime.linux-musl-arm.runtime.native.system.io.ports\\10.0.0-preview.2.25163.2\\runtime.linux-musl-arm.runtime.native.system.io.ports.10.0.0-preview.2.25163.2.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\runtime.linux-musl-arm64.runtime.native.system.io.ports\\10.0.0-preview.2.25163.2\\runtime.linux-musl-arm64.runtime.native.system.io.ports.10.0.0-preview.2.25163.2.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\runtime.linux-musl-x64.runtime.native.system.io.ports\\10.0.0-preview.2.25163.2\\runtime.linux-musl-x64.runtime.native.system.io.ports.10.0.0-preview.2.25163.2.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\runtime.linux-x64.runtime.native.system.io.ports\\10.0.0-preview.2.25163.2\\runtime.linux-x64.runtime.native.system.io.ports.10.0.0-preview.2.25163.2.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\runtime.maccatalyst-arm64.runtime.native.system.io.ports\\10.0.0-preview.2.25163.2\\runtime.maccatalyst-arm64.runtime.native.system.io.ports.10.0.0-preview.2.25163.2.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\runtime.maccatalyst-x64.runtime.native.system.io.ports\\10.0.0-preview.2.25163.2\\runtime.maccatalyst-x64.runtime.native.system.io.ports.10.0.0-preview.2.25163.2.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\runtime.native.system.io.ports\\10.0.0-preview.2.25163.2\\runtime.native.system.io.ports.10.0.0-preview.2.25163.2.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\runtime.osx-arm64.runtime.native.system.io.ports\\10.0.0-preview.2.25163.2\\runtime.osx-arm64.runtime.native.system.io.ports.10.0.0-preview.2.25163.2.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\runtime.osx-x64.runtime.native.system.io.ports\\10.0.0-preview.2.25163.2\\runtime.osx-x64.runtime.native.system.io.ports.10.0.0-preview.2.25163.2.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\system.codedom\\10.0.0-preview.2.25163.2\\system.codedom.10.0.0-preview.2.25163.2.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\system.collections.nongeneric\\4.3.0\\system.collections.nongeneric.4.3.0.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\system.io.ports\\10.0.0-preview.2.25163.2\\system.io.ports.10.0.0-preview.2.25163.2.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\system.management\\10.0.0-preview.2.25163.2\\system.management.10.0.0-preview.2.25163.2.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
+    "C:\\Users\\JazzZhang\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'HtmlRenderer.Core 1.5.1-beta1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "HtmlRenderer.Core",
+      "targetGraphs": [
+        "net9.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'HtmlRenderer.WPF 1.5.1-beta1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "HtmlRenderer.WPF",
+      "targetGraphs": [
+        "net9.0-windows7.0"
+      ]
+    }
+  ]
+}
