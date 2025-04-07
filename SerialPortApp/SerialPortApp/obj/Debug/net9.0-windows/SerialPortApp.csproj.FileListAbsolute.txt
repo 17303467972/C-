@@ -48,3 +48,6 @@ D:\Users\JazzZhang\RiderProjects\SerialPortApp\SerialPortApp\bin\Debug\net9.0-wi
 D:\Users\JazzZhang\RiderProjects\SerialPortApp\SerialPortApp\bin\Debug\net9.0-windows\HtmlRenderer.dll
 D:\Users\JazzZhang\RiderProjects\SerialPortApp\SerialPortApp\bin\Debug\net9.0-windows\HtmlRenderer.WPF.dll
 D:\Users\JazzZhang\RiderProjects\SerialPortApp\SerialPortApp\bin\Debug\net9.0-windows\JetBrains.Annotations.dll
+D:\Users\JazzZhang\RiderProjects\SerialPortApp\SerialPortApp\obj\Debug\net9.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Users\JazzZhang\RiderProjects\SerialPortApp\SerialPortApp\obj\Debug\net9.0-windows\SerialPortApp_MarkupCompile.lref
+D:\Users\JazzZhang\RiderProjects\SerialPortApp\SerialPortApp\obj\Debug\net9.0-windows\SerialPortApp.sourcelink.json

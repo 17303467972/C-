@@ -410,27 +410,27 @@ namespace SerialPortApp
             _plotModel.InvalidatePlot(true);
         }
 
-        private void ExportImage_Click(object sender, RoutedEventArgs e)
-        {
-            var dialog = new SaveFileDialog
-            {
-                Filter = "PNG图片|*.png",
-                Title = "导出图表"
-            };
-
-            if (dialog.ShowDialog() != true) return;
-
-            try
-            {
-                new PngExporter { Width = 1200, Height = 800 }
-                    .ExportToFile(_plotModel, dialog.FileName);
-                AddLog($"图表已导出到: {dialog.FileName}", LogLevel.Info);
-            }
-            catch (Exception ex)
-            {
-                AddLog($"导出失败: {ex.Message}", LogLevel.Error);
-            }
-        }
+        // private void ExportImage_Click(object sender, RoutedEventArgs e)
+        // {
+        //     var dialog = new SaveFileDialog
+        //     {
+        //         Filter = "PNG图片|*.png",
+        //         Title = "导出图表"
+        //     };
+        //
+        //     if (dialog.ShowDialog() != true) return;
+        //
+        //     try
+        //     {
+        //         new PngExporter { Width = 1200, Height = 800 }
+        //             .ExportToFile(_plotModel, dialog.FileName);
+        //         AddLog($"图表已导出到: {dialog.FileName}", LogLevel.Info);
+        //     }
+        //     catch (Exception ex)
+        //     {
+        //         AddLog($"导出失败: {ex.Message}", LogLevel.Error);
+        //     }
+        // }
 
         private void AddLog(string message, LogLevel level)
         {
@@ -466,6 +466,7 @@ namespace SerialPortApp
                 }
             });
         }
+        private void BtnRefresh_Click(object sender, RoutedEventArgs e) => RefreshPorts();
 
         private void Window_Closed(object sender, EventArgs e)
         {
@@ -481,6 +482,7 @@ namespace SerialPortApp
         }
         #endregion
     }
+    
 
     #region Helper Classes
     public class PortInfo
